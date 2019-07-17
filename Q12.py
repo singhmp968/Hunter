@@ -1,5 +1,5 @@
-x=str(input())
+x=map(str,input().split())
 for i in x:
         
-        m=i[::-1]
-        print(m,end="")
+        x=i[::-1]
+        print(x,end=" ")
