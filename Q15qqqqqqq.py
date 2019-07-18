@@ -1,14 +1,14 @@
-a=int(input())
-li=list(map(int,input().split()))[:a]
-c=max(li)
-res=[]
-for i in range(0,len(li)):
+a1=int(input())
+li1=list(map(int,input().split()))[:a1]
+c1=max(li1)
+res1=[]
+for i1 in range(0,len(li1)):
     
                
-    n=li[i:]
-    g=max(n)
-    if(li[i]==g):
-        res.append(li[i])
-print(*res)
+    n1=li1[i1:]
+    g1=max(n1)
+    if(li1[i1]==g1):
+        res1.append(li1[i1])
+print(*res1)
 
-print(c)
+print(c1)
